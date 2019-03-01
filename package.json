@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "webpack --mode=development"
+    "build": "webpack --mode=development",
+    "start:dev": "webpack-dev-server"
   },
   "dependencies": {
     "@uirouter/angularjs": "1.0.15",
@@ -15,6 +16,7 @@
     "html-loader": "^0.5.5",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   }
 }
