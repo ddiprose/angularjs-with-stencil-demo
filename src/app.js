@@ -15,4 +15,7 @@ const requires = [
 
 window.app = angular.module('app', requires);
 
-angular.bootstrap(document.getElementById('app'), ['app']);
+angular.bootstrap(document.getElementById('app'), ['app']
+//, { strictDi: true }
+);
+

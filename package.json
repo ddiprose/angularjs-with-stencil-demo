@@ -2,10 +2,19 @@
   "name": "angularjs-2bx1q1",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "build": "webpack --mode=development"
+  },
   "dependencies": {
     "@uirouter/angularjs": "1.0.15",
     "angular": "1.6.9",
     "stenciljs-sidebar-demo": "git+https://github.com/ddiprose/stenciljs-sidebar-demo.git"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
